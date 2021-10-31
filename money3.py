@@ -9,7 +9,7 @@ def price_of_apple():
 def display_apple_quantity_and_money_change():
     canPurchase = moneyQ // appleP
     moneyChange = moneyQ % appleP
-    print(f"You can buy {canPurchase} apples and your change is {moneyChange:.2f} pesos.") 
+    print(f"You can buy {canPurchase:.0f} apples and your change is {moneyChange:.2f} pesos.") 
 
 # steps
 # 1. ask money that you have and save to variable
