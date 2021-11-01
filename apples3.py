@@ -13,7 +13,6 @@ def compute_total_amount():
     orangeAmount = oranges * orangesQ
     amount= applesAmount + orangeAmount
     print(f"The total amount is {amount}.")
-    return amount
 
 #steps
 # 1. ask for apples you want to buy and save to variable
