@@ -12,6 +12,9 @@ def compute_total_amount():
     applesAmount = apples * applesQ
     orangeAmount = oranges * orangesQ
     amount= applesAmount + orangeAmount
+    return amount
+
+def displayOutput():
     print(f"The total amount is {amount}.")
 
 #steps
@@ -24,5 +27,7 @@ print("The price of apples is 20 php")
 apples = 20
 print("The price of oranges is 25 php")
 oranges = 25
-# 4. display the total amount in the ff. format : The total amount is ___.
+# 4. compute total price
 amount = compute_total_amount()
+# 5. display the total amount in the ff. format : The total amount is ___.
+output = displayOutput()
